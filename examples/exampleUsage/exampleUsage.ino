@@ -100,6 +100,10 @@ void setup() {
         Serial.print(protocolMajor);
         Serial.print(".");
         Serial.println(protocolMinor);
+        if (firmwareMajor < 2 || (firmwareMajor == 2 && firmwareMinor < 2)) {
+            Serial.println("Warning: Old firmware version which may return "
+                           "constant values after a few hours of operation");
+        }
     }
 
     // Start Measurement
