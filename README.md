@@ -27,7 +27,7 @@ Note: Installation via the Arduino Library Manager is coming soon.
    The pinout of the SVM40 Sensor board can be found in the
    data sheet.
 
-	* **VDD** of the SEK-SVM40 to the **xV** of your Arduino board TODO: Add correct voltage
+	* **VDD** of the SEK-SVM40 to the **5V** of your Arduino board
 	* **GND** of the SEK-SVM40 to the **GND** of your Arduino board
 	* **SCL** of the SEK-SVM40 to the **SCL** of your Arduino board
 	* **SDA** of the SEK-SVM40 to the **SDA** of your Arduino board
@@ -63,7 +63,7 @@ formatted accordingly:
 The `-i` flag will apply the format changes to the files listed.
 
 ```bash
-clang-format -i *.cpp *.h
+clang-format -i src/*.cpp src/*.h
 ```
 
 Note that differences from this formatting will result in a failed build until
