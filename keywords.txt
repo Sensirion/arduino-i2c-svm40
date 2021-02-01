@@ -12,33 +12,19 @@ SensirionI2CSvm40	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 startContinuousMeasurement	KEYWORD2
-
 stopMeasurement	KEYWORD2
-
 readMeasuredValuesAsIntegers	KEYWORD2
-
 readMeasuredValuesAsIntegersWithRawParameters	KEYWORD2
-
 setTemperatureOffsetForRhtMeasurements	KEYWORD2
-
 getTemperatureOffsetForRhtMeasurements	KEYWORD2
-
 setVocAlgorithmTuningParameters	KEYWORD2
-
 getVocAlgorithmTuningParameters	KEYWORD2
-
 storeNvData	KEYWORD2
-
 setVocAlgorithmState	KEYWORD2
-
 getVocAlgorithmState	KEYWORD2
-
 getVersion	KEYWORD2
-
 getSerialNumber	KEYWORD2
-
 deviceReset	KEYWORD2
-
 #######################################
 # Instances (KEYWORD2)
 #######################################

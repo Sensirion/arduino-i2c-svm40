@@ -3,7 +3,7 @@
  *
  * I2C-Generator: 0.2.0
  * Yaml Version: 0.3.0
- * Template Version: 0.2.0
+ * Template Version: 0.3.0
  */
 /*
  * Copyright (c) 2021, Sensirion AG
@@ -38,10 +38,10 @@
 
 #include "SensirionI2CSvm40.h"
 #include "Arduino.h"
-#include "SensirionCoreArduinoLibrary.h"
+#include "SensirionCore.h"
 #include <Wire.h>
 
-#define SVM40_I2C_ADDRESS 106
+#define SVM40_I2C_ADDRESS 0x6A
 
 SensirionI2CSvm40::SensirionI2CSvm40() {
 }
