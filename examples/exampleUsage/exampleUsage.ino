@@ -67,7 +67,7 @@ void setup() {
         errorToString(error, errorMessage, 256);
         Serial.println(errorMessage);
     } else {
-        Serial.print("Serial Number:");
+        Serial.print("SerialNumber:");
         Serial.println((char*)serialNumber);
     }
 
